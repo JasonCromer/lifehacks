@@ -10,6 +10,6 @@ else
 fi
 
 #Print message to comfirm finish
-echo "Touchpad is on!"
+echo "Touchpad is now on!"
 
 export PATH=$PATH":$HOME/bin"
