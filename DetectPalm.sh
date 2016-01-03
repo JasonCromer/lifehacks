@@ -13,11 +13,11 @@ echo "Adjusting Palm Detection..."
 #If Palm Detect is off, turn it on
 if synclient -l | grep "PalmDetect.* =*0" ; then
 	synclient PalmDetect=1
-	synclient PalmMinWidth=6
-	synclient PalmMinZ=175
+	synclient PalmMinWidth=4
+	synclient PalmMinZ=150
 else
-	synclient PalmMinWidth=6
-	synclient PalmMinZ=175
+	synclient PalmMinWidth=4
+	synclient PalmMinZ=150
 fi
 
 #Print message to confirm finish
