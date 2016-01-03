@@ -8,6 +8,8 @@ _Life's too short for verbose commands. Write a script for it!_
 
 + Turn on synaptics touchpad if it is off
 + Suspend session (password required)
++ Turn on Palm Detection and adjust parameters
++ Disable the synaptics touchpad while typing
 
 ---
 
