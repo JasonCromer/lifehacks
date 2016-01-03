@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#This command disables the touchpad while typing, but allows mouse movement
+#-------------------------Usage--------------------------
+# -t Only disable tapping and scrolling, not mouse movements
+# -k ignore modifier keys when monitoring keyboard activity
+# -i How many seconds to wait after the last key press (seconds)
+# -d Start as a daemon, i.e. in the background
+
+echo "Disabling touchpad while typing..."
+
+#Disble the touchpad while typing
+syndaemon -t -k -i .5 -d
+
+echo "Keyboard disabled while typing"
