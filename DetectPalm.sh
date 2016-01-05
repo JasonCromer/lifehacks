@@ -22,5 +22,3 @@ fi
 
 #Print message to confirm finish
 echo "Palm Detection adjusted!"
-
-export PATH=$PATH":$HOME/bin"
